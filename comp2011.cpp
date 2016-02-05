@@ -14,7 +14,8 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    cout << 4+666
-    7+2
+    cout << 4+666;
+    7+2;
+    cout<< x+y;
     return 0
 }
