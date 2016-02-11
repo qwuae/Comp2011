@@ -1,0 +1,6 @@
+09:58:37 **** Build of configuration Debug for project h ****
+make all 
+make: *** No rule to make target `src/h.o', needed by `h'.  Stop.
+
+09:58:37 Build Finished (took 72ms)
+

@@ -1,0 +1,89 @@
+10:18:16 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+Building file: ../src/h2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/h2.d" -MT"src/h2.d" -o "src/h2.o" "../src/h2.cpp"
+../src/h2.cpp:14:17: error: expected ';' at end of declaration
+        double a = 1.68
+                       ^
+                       ;
+1 error generated.
+make: *** [src/h2.o] Error 1
+10:18:49 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+Building file: ../src/h2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/h2.d" -MT"src/h2.d" -o "src/h2.o" "../src/h2.cpp"
+Finished building: ../src/h2.cpp
+ 
+Building target: h2
+Invoking: Cross G++ Linker
+g++  -o "h2"  ./src/h2.o   
+Finished building target: h2
+ 
+10:18:54 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+make: Nothing to be done for `all'.
+10:19:08 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+Building file: ../src/h2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/h2.d" -MT"src/h2.d" -o "src/h2.o" "../src/h2.cpp"
+../src/h2.cpp:14:11: warning: implicit conversion from 'double' to 'char' changes value from 1.68 to 1 [-Wliteral-conversion]
+        char a = 1.68;
+             ~   ^~~~
+1 warning generated.
+Finished building: ../src/h2.cpp
+ 
+Building target: h2
+Invoking: Cross G++ Linker
+g++  -o "h2"  ./src/h2.o   
+Finished building target: h2
+ 
+10:19:22 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+Building file: ../src/h2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/h2.d" -MT"src/h2.d" -o "src/h2.o" "../src/h2.cpp"
+../src/h2.cpp:14:11: warning: implicit conversion from 'int' to 'char' changes value from 825112120 to 56 [-Wconstant-conversion]
+        char a = '1.68';
+             ~   ^~~~~~
+1 warning generated.
+Finished building: ../src/h2.cpp
+ 
+Building target: h2
+Invoking: Cross G++ Linker
+g++  -o "h2"  ./src/h2.o   
+Finished building target: h2
+ 
+10:19:32 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+Building file: ../src/h2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/h2.d" -MT"src/h2.d" -o "src/h2.o" "../src/h2.cpp"
+Finished building: ../src/h2.cpp
+ 
+Building target: h2
+Invoking: Cross G++ Linker
+g++  -o "h2"  ./src/h2.o   
+Finished building target: h2
+ 
+10:19:41 **** Incremental Build of configuration Debug for project h2 ****
+make all 
+Building file: ../src/h2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/h2.d" -MT"src/h2.d" -o "src/h2.o" "../src/h2.cpp"
+../src/h2.cpp:14:11: warning: multi-character character constant [-Wmultichar]
+        char a = '1.6';
+                 ^
+../src/h2.cpp:14:11: warning: implicit conversion from 'int' to 'char' changes value from 3223094 to 54 [-Wconstant-conversion]
+        char a = '1.6';
+             ~   ^~~~~
+2 warnings generated.
+Finished building: ../src/h2.cpp
+ 
+Building target: h2
+Invoking: Cross G++ Linker
+g++  -o "h2"  ./src/h2.o   
+Finished building target: h2
+ 
